@@ -1,0 +1,268 @@
+/*Homepage*/
+main {
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 40px 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+nav {
+    background-color: #222; 
+    padding: 10px;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    padding: 25px;
+}
+
+nav a:hover {
+    background-color: #3d3b3b;
+}
+
+.profile-img {
+    display: block;
+    width: 150px; 
+    height: auto;
+    border-radius: 50%; 
+    margin: 20px auto; 
+}
+
+h1, h2, h3 {
+    color: #1E293B;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+body {
+    text-align: center;
+    background-color: #EFF6FF;
+    font-family: Arial, sans-serif; 
+    color: #1E293B; 
+    line-height: 1.6; 
+    padding: 20px;
+}
+
+.swiper {
+    width: 100%;
+    max-width: 900px; /* Adjust as needed */
+    margin: auto; /* Center it */
+    overflow: hidden;
+}
+
+.swiper-slide {
+    width: 100%;
+    background: white; /* Set a background color */
+    padding: 20px; /* Space inside each slide */
+    border-radius: 10px; /* Optional: Adjust for smooth edges */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds depth */
+    text-align: center; /* Centers content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    max-height: 300px; /* Adjust for desired size */
+    object-fit: cover; /* Prevents image stretching */
+    border-radius: 8px; /* Optional: Soft edges */
+}
+
+.swiper-slide p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #1E293B;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #222; /* Use primary blue */
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.contact-btn:hover {
+    background-color: #3d3b3b;
+}
+
+footer {
+    background-color: #222;  /* Dark background for contrast */
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;  
+    margin: 0 auto;  
+    padding: 10px 20px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.socials a:hover {
+    color: #3d3b3b;  
+}
+
+
+/*Resume*/
+
+.resume-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.download-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222; /* Change to match your new color scheme */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #3d3b3b; /* Darker shade for hover effect */
+}
+
+/* Contact Section Styling */
+.contact-section {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Space between form elements */
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none; 
+}
+
+button {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3d3b3b; 
+}
+
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #222; /* Icon color */
+    font-size: 2rem; 
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #3d3b3b; /* Darker blue on hover */
+}
+
+/*Projects*/
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.live-demo-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #222; /* Change to match your theme */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.live-demo-btn:hover{
+    background-color: #3d3b3b;
+}
